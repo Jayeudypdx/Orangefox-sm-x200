@@ -4,7 +4,7 @@
 export FOX_BRANCH="fox_11.0"
 export DT_LINK="https://github.com/Magendanz/android_device_samsung_gtowifi.git -b twrp-11"
 
-export DEVICE="gta8wifi"
+export DEVICE="gtowifi"
 export OEM="samsung"
 
 # Build Target
