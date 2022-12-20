@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/Magendanz/android_device_samsung_gtowifi.git -b twrp-11"
+export DT_LINK="https://github.com/AndroidBlobs/device_samsung_gtowifi.git -b twrp-11"
 
 export DEVICE="gtowifi"
 export OEM="samsung"
@@ -19,11 +19,11 @@ export OUTPUT="OrangeFox*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
-    "https://github.com/Magendanz/android_device_samsung_gtowifi/blob/86ad35eea93a4e4d3c9ef39b462718cb09a70196/prebuilt/kernel Kernel"
+    "https://github.com/Jake-Jensen/android_kernel_samsung_gtowifi.git Kernel"
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=Sushrut1101"
+export EXTRA_CMD="export OF_MAINTAINER=jayeudypdx"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
