@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/AndroidBlobs/device_samsung_gtowifi.git -b twrp-11"
+export DT_LINK="https://github.com/AndroidBlobs/device_samsung_gtowifi.git"
 
 export DEVICE="gtowifi"
 export OEM="samsung"
