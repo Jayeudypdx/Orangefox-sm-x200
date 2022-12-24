@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/Jayeudypdx/android_device_samsung_gta8wifi-1.git -b TT Limitedrecovery"
+export DT_LINK="https://github.com/Jayeudypdx/android_device_samsung_gta8wifi-1.git -b twrp-11"
 
 export DEVICE="gta8wifi"
 export OEM="samsung"
