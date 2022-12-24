@@ -19,7 +19,7 @@ export OUTPUT="OrangeFox*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
-    "https://github.com/Jayeudypdx/android_device_samsung_gta8wifi-1/blob/439398be923ebbd168c8de5e647fdeca580e3998/prebuilt/kernel.git kernel"
+
    )
 
 # Extra Command
