@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/Jayeudypdx/android_device_samsung_gta8wifi.git -b twrp-12.1"
+export FOX_BRANCH="fox_11"
+export DT_LINK="https://github.com/Jayeudypdx/android_device_samsung_gta8wifi.git -b twrp-11"
 
 export DEVICE="gta8wifi"
 export OEM="samsung"
@@ -19,6 +19,7 @@ export OUTPUT="OrangeFox*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
+    "https://github.com/Jayeudypdx/android_device_samsung_gta8wifi/blob/f7454940ce2190b1a5ea4672bf049bf17e494d8c/prebuilt/kernel"
    )
 
 # Extra Command
